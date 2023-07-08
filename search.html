@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Search - Recruitment Solution App</title>
+  <link rel="stylesheet" type="text/css" href="search.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="https://internshala.com/cached_uploads/logo%2F5e36e47ef04611580655742.png" alt="Logo"></a>
+      </div>
+      <div class="toggle">
+        <span class="first"></span>
+        <span class="middle"></span>
+        <span class="last"></span>
+      </div>
+      <div class="navigation-bar">
+        <ul>
+          <li><a href="index.html">Home<span class="underline"></span></a></li>
+          <li ><a href="login.html">Login<span class="underline"></span></a></li>
+          <li class="active"><a href="search.html">Search<span class="underline"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="ubha">
+
+    <section id="search-form">
+      <input type="text" id="location" placeholder="Location">
+      <input type="text" id="job-role" placeholder="Job Role">
+      <button type="button" onclick="searchCandidates()">Search</button>
+    </section>
+    
+    <section id="candidate-list">
+      <h2>Results</h2>
+      <ul id="results"></ul>
+    </section>
+  </div>
+  
+</body>
+</html>
